@@ -1,18 +1,19 @@
 @font-face {
-  font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?i77w0q');
-  src:  url('fonts/icomoon.eot?i77w0q#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?i77w0q') format('truetype'),
-    url('fonts/icomoon.woff?i77w0q') format('woff'),
-    url('fonts/icomoon.svg?i77w0q#icomoon') format('svg');
+  font-family: "icomoon";
+  src: url("fonts/icomoon.eot?i77w0q");
+  src: url("fonts/icomoon.eot?i77w0q#iefix") format("embedded-opentype"),
+    url("fonts/icomoon.ttf?i77w0q") format("truetype"),
+    url("fonts/icomoon.woff?i77w0q") format("woff"),
+    url("fonts/icomoon.svg?i77w0q#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-[class^="icon-"], [class*=" icon-"] {
+[class^="icon-"],
+[class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
+  font-family: "icomoon" !important;
   speak: never;
   font-style: normal;
   font-weight: normal;
@@ -51,8 +52,7 @@
 }
 
 body {
-
-  font-family: 'Noto Sans Display', 'Noto Sans Malayalam';
+  font-family: "Noto Sans Display", "Noto Sans Malayalam";
   font-size: 16px;
   line-height: 28px;
 }
@@ -67,24 +67,23 @@ li.nav-item:hover {
 }
 
 .navbar-expand-xl .navbar-nav .nav-link {
-  padding-right: .4rem;
-  padding-left: .4rem;
+  padding-right: 0.4rem;
+  padding-left: 0.4rem;
 }
 
 @media screen and (max-width: 1024px) {
   body {
-      margin-bottom: 0;
+    margin-bottom: 0;
   }
 
   .footerad {
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-      height: 60px;
-      line-height: 60px;
-      background-color: #f5f5f5;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #f5f5f5;
   }
-
 }
 
 .navbar-nav .nav-link {
@@ -100,13 +99,12 @@ li.nav-item:hover {
   font-weight: bold;
 }
 
-.btn-group-sm>.btn,
+.btn-group-sm > .btn,
 .btn-sm {
-  padding: .25rem .3rem;
+  padding: 0.25rem 0.3rem;
   font-size: 0.8rem;
-  border-radius: .2rem;
+  border-radius: 0.2rem;
 }
-
 
 hr {
   margin: 0;
@@ -133,9 +131,9 @@ h5,
 h6 {
   /*  font-family: 'Ubuntu', 'Noto Sans Malayalam UI'; */
 
-  font-family: 'Noto Sans Display', 'Noto Sans Malayalam';
-/*   font-style: normal;
- */
+  font-family: "Noto Sans Display", "Noto Sans Malayalam";
+  /*   font-style: normal;
+   */
   font-weight: 600;
 }
 
@@ -181,13 +179,12 @@ h6 {
 
 .bigtitle.categorytitle::before {
   height: 1.125rem;
-  border-left-width: .225rem;
+  border-left-width: 0.225rem;
 }
 
-.bigtitle.categorytitle
-        {
-            font-weight: 600;
-        }
+.bigtitle.categorytitle {
+  font-weight: 600;
+}
 
 .redcategory::before {
   border-color: #e91802 !important;
@@ -200,7 +197,7 @@ h6 {
 .categorytitle::before {
   content: " ";
   display: inline-block;
-  margin-right: .2rem;
+  margin-right: 0.2rem;
   border-left: 2px solid #47a1d8;
   height: 0.8rem;
   padding: 0;
