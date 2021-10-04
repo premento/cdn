@@ -52,7 +52,7 @@
 
 body {
 
-  font-family: 'Ubuntu', 'Noto Sans Malayalam';
+  font-family: 'Noto Sans Display', 'Noto Sans Malayalam';
   font-size: 16px;
   line-height: 28px;
 }
@@ -133,10 +133,10 @@ h5,
 h6 {
   /*  font-family: 'Ubuntu', 'Noto Sans Malayalam UI'; */
 
-  font-family: 'Ubuntu', 'Noto Sans Malayalam';
-  font-style: normal;
-
-  /* font-weight: 600; */
+  font-family: 'Noto Sans Display', 'Noto Sans Malayalam';
+/*   font-style: normal;
+ */
+  font-weight: 600;
 }
 
 .headerbold {
@@ -183,6 +183,11 @@ h6 {
   height: 1.125rem;
   border-left-width: .225rem;
 }
+
+.bigtitle.categorytitle
+        {
+            font-weight: 600;
+        }
 
 .redcategory::before {
   border-color: #e91802 !important;
