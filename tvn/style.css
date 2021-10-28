@@ -145,6 +145,16 @@ h6 {
   font-size: smaller;
 }
 
+.small,
+        small {
+            font-size: .775em;
+        }
+
+        .text-yellow
+        {
+            color: #f6e58d !important;
+        }
+        
 .navbar {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
