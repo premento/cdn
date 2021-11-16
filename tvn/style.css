@@ -52,7 +52,7 @@
 }
 
 body {
-  font-family: "Cardo","Noto Sans Display", "Noto Sans Malayalam";
+  font-family: "Noto Sans Display", "Noto Sans Malayalam";
   font-size: 16px;
   line-height: 28px;
 }
@@ -131,7 +131,7 @@ h5,
 h6 {
   /*  font-family: 'Ubuntu', 'Noto Sans Malayalam UI'; */
 
-  font-family: "Cardo","Noto Sans Display", "Noto Sans Malayalam";
+  font-family: "Noto Sans Display", "Noto Sans Malayalam";
   /*   font-style: normal;
    */
   font-weight: 600;
