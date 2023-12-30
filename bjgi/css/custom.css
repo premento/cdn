@@ -1,0 +1,70 @@
+:root {
+  font-size: 15px;
+}
+
+body {
+  font-family: "Proxima Nova Rg", "stag sans", Arial, Helvetica, sans-serif;
+  background: url("/assets/images/bright-squares.png") top left repeat #f2f2f2;
+  font-size: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: "Proxima Nova Rg", "Stag Sans", "Proxima Nova Rg", Courier,
+    monospace !important;
+  font-weight: 600;
+}
+
+.toplogo {
+  max-width: 250px;
+}
+
+a {
+  text-decoration: auto;
+}
+
+.dropdown-menu li {
+  position: relative;
+}
+
+.dropdown-menu .dropdown-submenu {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: -7px;
+}
+
+.dropdown-menu .dropdown-submenu-left {
+  right: 100%;
+  left: auto;
+}
+
+.dropdown-menu > li:hover > .dropdown-submenu {
+  display: block;
+}
+b,
+strong {
+  font-weight: 600 !important;
+}
+
+.dropdown-item {
+  font-size: 0.95rem;
+}
+
+.slidertext {
+  font-size: 2.5rem;
+  font-family: "Proxima Nova Rg" !important;
+  color: white;
+  font-weight: 600;
+  text-align: right;
+}
